@@ -1,8 +1,6 @@
 import './App.css';
-import Navbar from "../components/Navbar";
 
-
-const name = "Daniel";
+const name = "Sergio";
 const orangeColor = "orange";
 const blueColor = "blue";
 const redColor = "red";
