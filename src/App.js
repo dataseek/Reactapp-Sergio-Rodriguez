@@ -1,5 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import Items from './components/ItemListContent/ItemListContent';
+
 import React, { Component } from 'react';
 
 
@@ -13,8 +15,14 @@ function App() {
           item3='Nosotros'
 					item4='Contacto'
 				/>
+      <Items
+      greeting='Ejemplo'
+      />
     </div>
   );
 }
+
+
+
 
 export default App;
