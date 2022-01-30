@@ -1,9 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Items from './container/ItemListContainer/ItemListContainer';
-
-import React, { Component } from 'react';
-
+import Items from './components/ItemListContainer/ItemListContainer';
+import React from 'react';
 
 
 const App = () => {
