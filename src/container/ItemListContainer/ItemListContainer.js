@@ -1,7 +1,7 @@
 import React from 'react';
-import './ItemListContent.css';
+import './ItemListContainer.css';
 
-const ItemListContent = (props) => {
+const ItemListContainer = (props) => {
 	return (
 <>
 <h2 className='container'> Este es un contenido {props.greeting}</h2>
@@ -9,4 +9,4 @@ const ItemListContent = (props) => {
 	);
 };
 
-export default ItemListContent;
+export default ItemListContainer;

@@ -1,12 +1,12 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Items from './components/ItemListContent/ItemListContent';
+import Items from './container/ItemListContainer/ItemListContainer';
 
 import React, { Component } from 'react';
 
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <NavBar
