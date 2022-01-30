@@ -1,13 +1,12 @@
 import React from 'react';
 import './ItemListContainer.css';
-import ItemCount from '../ItemCount/ItemCount';
+import Card from '../Item/Item';
 
 const ItemListContainer = () => {
 	return (
-<>
-<h2 className='container'> Este es un contenido </h2>
-<ItemCount />
-</>
+<div className='container'>
+    <Card />
+</div>
 	);
 };
 

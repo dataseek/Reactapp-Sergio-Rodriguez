@@ -26,10 +26,7 @@ const NavBar = (props) => {
         <a className='nav-link' href='/'>{props.item4}</a>
       </li>
       <li className='nav-item'>
-        <Cart
-        color='blue'
-        caption=' 4 '
-        />
+        <Cart />
       </li>
     </ul>
   </div>
