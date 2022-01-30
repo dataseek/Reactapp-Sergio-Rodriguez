@@ -3,7 +3,7 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import './ItemCount.css'
 
-const ItemCount = (props) => {
+const ItemCount = () => {
 
     const [counter, setCounter] = useState(0);
   

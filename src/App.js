@@ -13,9 +13,7 @@ const App = () => {
           item3='Nosotros'
 					item4='Contacto'
 				/>
-      <Items
-      greeting='Ejemplo'
-      />
+      <Items />
     </div>
   );
 }
