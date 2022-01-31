@@ -3,7 +3,7 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import './ItemCount.css'
 import Button from '@mui/material/Button';
-import Cart from '../CartWidget/CartWidget';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 
@@ -25,13 +25,13 @@ const ItemCount = () => {
     };
 
     const AgregarCarrito = () => {   
-     <Cart item={setCounter(counter)} />
+     <CartWidget item={setCounter(counter)} />
     };
 
 
 	return (
  <>
-        <div className='row'>
+        <div className='row pt-auto pb-0'>
           <div className='col-12 d-flex justify-content-center'>
             <Button onClick={handlerCounterDown} size="small"><RemoveIcon/></Button>
             <div>{counter}</div>

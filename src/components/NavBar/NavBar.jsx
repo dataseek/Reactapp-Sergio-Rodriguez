@@ -14,16 +14,16 @@ const NavBar = (props) => {
   <div className='collapse navbar-collapse d-flex justify-content-center' id='navbarNav'>
     <ul className='navbar-nav'>
       <li className='nav-item active'>
-        <a className='nav-link' href='/'>{props.item1}<span className='sr-only'></span></a>
+        <a className='nav-link' href='/'>Inicio<span className='sr-only'></span></a>
       </li>
       <li className='nav-item'>
-        <a className='nav-link' href='/'>{props.item2}</a>
+        <a className='nav-link' href='/'>Item 2</a>
       </li>
       <li className='nav-item'>
-        <a className='nav-link' href='/'>{props.item3}</a>
+        <a className='nav-link' href='/'>Item 3</a>
       </li>
       <li className='nav-item'>
-        <a className='nav-link' href='/'>{props.item4}</a>
+        <a className='nav-link' href='/'>Item 4</a>
       </li>
       <li className='nav-item'>
         <Cart />
